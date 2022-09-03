@@ -22,8 +22,8 @@ body {
   background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* padding: 0 315px; */
-  padding: 0 15rem;
+  display: flex;
+  justify-content: center;
   padding-bottom: 60px;
 }
 
@@ -37,8 +37,7 @@ body {
 .container {
   margin-top: 215px;
   display: flex;
-  justify-content: space-between;
-  /* gap: 40px; */
+  gap: 70px;
 }
 
 /* INFO CONTAINER */
@@ -53,6 +52,11 @@ body {
   flex-direction: column;
   align-items: center;
   row-gap: 20px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .avatar-box {
@@ -88,11 +92,21 @@ body {
 .title-box p {
   font-size: 16px;
   font-weight: 500;
+  text-align: center;
 }
 
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
 .social-box {
   display: flex;
+  justify-content: center;
   gap: 10px;
+  width: 100%;
 }
 .social-box .icon-box {
   display: flex;

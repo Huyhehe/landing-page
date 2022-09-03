@@ -1,2 +1,36 @@
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1350px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .info-container {
+    width: 850px;
+    height: auto;
+    flex-direction: row;
+    row-gap: 0;
+    column-gap: 5em;
+    padding: 20px 40px;
+    align-items: start;
+  }
+  .profile-container {
+    gap: 10px;
+  }
+  .avatar-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+  }
+  .name-box h2 {
+    text-align: center;
+  }
+  .title-box p {
+    text-align: center;
+  }
+  .social-box {
+    justify-content: center;
+  }
+  .detail-container {
+    flex-grow: 1;
+  }
 }
